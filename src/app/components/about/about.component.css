@@ -1,0 +1,27 @@
+li {
+    list-style-type: none; /* Enlève les points de puce */
+  }
+  
+
+.list-item {
+    display: flex;      /* Active Flexbox pour l'alignement horizontal */
+    align-items: center; /* Centre verticalement les éléments enfants */
+    gap: 10px;          /* Espace entre l'image et le bloc de texte */
+  }
+  
+  .bx {
+    width: 48px;        /* Ou toute autre taille appropriée pour l'icône */
+    height: auto;       /* Maintient le ratio d'aspect */
+  }
+  
+  .list-item > div {
+    flex: 1;            /* Permet au div de remplir l'espace disponible */
+  }
+  
+  h5 {
+    margin: 0;          /* Enlève la marge par défaut du h5 pour un meilleur alignement */
+  }
+
+  .petit{
+    margin-right: 5px;
+  }

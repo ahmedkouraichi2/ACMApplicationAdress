@@ -1,0 +1,10 @@
+.button-style {
+    padding: 10px 20px; /* Espacement interne */
+    background-color: blue; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 10px; /* Coins arrondis */
+    margin: auto; /* Marge automatique pour le centrage horizontal */
+    display: inline-block; /* Permettre le centrage */
+    cursor: pointer; /* Style du curseur en tant que pointeur */
+  }

@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:ital,wght@0,100;1,100;1,300&display=swap');
+
+#hero ul {
+  list-style: none; /* Supprime les puces par défaut */
+  padding: 0; /* Supprime le padding par défaut */
+}
+
+#hero li {
+  margin-bottom: 10px; /* Ajoute un espace entre les éléments de la liste */
+  font-size: 18px; /* Taille de la police pour les éléments de la liste */
+  /* Ajoutez ici d'autres styles selon vos besoins */
+}
+
+.container-box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .icon-box {
+    /* Add styles for your icon here */
+    margin-bottom: 20px;
+  }
+  
+  .number-box {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .text p {
+    margin: 5px 0;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+  }

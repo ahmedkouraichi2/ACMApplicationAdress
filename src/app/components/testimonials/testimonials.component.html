@@ -1,0 +1,26 @@
+<section id="testimonials" class="testimonials">
+    <div class="container" data-aos="fade-up">
+      <header class="section-header">
+        <h2>Testimonials</h2>
+        <p>What they are saying about us</p>
+      </header>
+      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" *ngFor="let testimonial of testimonials">
+            <div class="testimonial-item">
+              <div class="stars">
+                <i class="bi bi-star-fill" *ngFor="let star of [].constructor(testimonial.stars)"></i>
+              </div>
+              <p>{{ testimonial.content }}</p>
+              <div class="profile mt-auto">
+                <img [src]="testimonial.imageUrl" class="testimonial-img" alt="">
+                <h3>{{ testimonial.name }}</h3>
+                <h4>{{ testimonial.role }}</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
