@@ -1,13 +1,13 @@
 
 .navbar {
-    position: fixed; /* Fixe la navbar en haut de la page */
-    top: 0; /* Positionne la navbar tout en haut */
+    position: fixed; 
+    top: 0; 
     left: 0; /* Aligner à gauche */
     right: 0; /* Aligner à droite */
     z-index: 1000; /* S'assure que la navbar reste au-dessus des autres éléments */
   
     display: flex;
-    justify-content: space-between;
+    justify-content: ;
     align-items: center;
     background-color: #333;
     color: white;
@@ -17,15 +17,14 @@
 
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: blue;
     padding: 0.5rem 1rem;
   }
   
   .navbar-logo {
-    font-size: 1.5rem;
+    font-size: 4rem;
   }
   
   .navbar-toggler {
@@ -40,8 +39,21 @@
   
   .navbar-item {
     margin-left: 1rem;
-    color: white;
+    color: red;
     text-decoration: none;
+    margin: 10px 0 0 0;
+    padding: 20;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #012970;
+  }
+
+
+  .join-btn{
+    border: 1px solid #333;
+    padding: 8px 15px;
+    border-radius: 4px;
   }
   
   @media (max-width: 768px) {
@@ -64,7 +76,7 @@
     }
   
     .navbar-item {
-      margin: 0.5rem 0;
+      margin: 2rem 0;
     }
   }
   

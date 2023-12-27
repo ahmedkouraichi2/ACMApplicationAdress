@@ -20,6 +20,7 @@ import { CopyrightComponent } from './components/copyright/copyright.component';
 import { PaieComponent } from './components/paie/paie/paie.component';
 import { AvantagesComponent } from './components/avantages/avantages.component';
 import { DegitalComponent } from './components/degital/degital.component';
+import { NavComponent } from './components/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,8 @@ import { DegitalComponent } from './components/degital/degital.component';
     PaieComponent,
     AvantagesComponent,
     DegitalComponent,
+    NavComponent,
+    
     
   ],
   imports: [
